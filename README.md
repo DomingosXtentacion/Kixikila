@@ -1,2 +1,2 @@
 # Kixikila
-Este é um site que ainda não foi hospedado ,este e para ser qualificado
+Este é um pré-site que ainda não foi hospedado ,este é para ser qualificado.
