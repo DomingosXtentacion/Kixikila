@@ -19,7 +19,7 @@
 <style>
 body{height:100%;width:100%;background-color:#ffffff;}
 .lay{height:20rem;width:90%;}
-	.body{background-image:url("back.jpg");background-size:100%;background-repeat:no-repeat;display:grid;}
+	.body{background-image:url("back.jpg");background-repeat:no-repeat;display:grid;}
 footer{height:20%;width:100%;background:yellow;}
 .barra{display:flex;justify-content:space-between;width:100%;height:50px;margin-top:0%;}
 .logar{height:35px;background:#008080;font-variant:small-caps;color:white;border-color:transparent;width:80px;display:none;border-width:1px;border-radius:5px;margin-right:2%;margin-top:60%;}
@@ -212,7 +212,23 @@ display:grid;}
 	</div>
 </div>
 </div>
-
+<form style="width:100%;height:330px;background-image:linear-gradient(to left,#171614,#008080);border-radius:2px;border-color:transparent;" action="mailto:doncajoblack@gmail.com" method="Post" target="self">
+    <div style="margin-left:7px">
+      <center><h2 style="margin-top:2px;font-size:18px;color:white;background:black;height:40px;width:90%;border-width:2px;border-bottom-color:green;border-radius:12px;font-style:bold;font-variant:small-caps;">Enviar um comentário</h2></center>
+    <label style="font-size:12px;color:black;font-style:bold;">Comentador:</label><br>
+     <input type="nome" style="width:200px;height:40px;border-radius:15px;font-style:bold;border-width:1px;border-color:transparent;color:black;font-size:12px" id="user" placeholder="nome do comentador" rows="1" requerid/>
+    <br>
+    <label style="font-size:12px;color:black;font-style:bold;">Email:</label><br>
+     <input type="email" style="width:200px;height:40px;border-radius:15px;font-style:bold;border-width:1px;border-color:transparent;color:black;font-size:12px" id="mail" placeholder="douradoExemplo@gmail.com" rows="1" requerid/>
+    <br>
+    <label style="font-size:12px;color:black;font-style:bold;">Comentação:</label><br>
+     <textarea id="msg" style="width:200px;text-align:left;height:80px;border-radius:10px;font-style:italic;border-width:1px;border-color:#008080;color:#008080;font-size:13px" placeholder="mensagem a ser enviada" minlength="1" maxlength="230" cols="1" rows="3" requerid>
+       </textarea>
+    <br>
+       <input type="submit" style="margin-top:5px;border-width:1px;height:35px;width:120px;border-radius:10px;background:black;color:#008080;font-size:12px;font-style:bold;" value="enviar" />
+    </div>
+  </form>
+  <br>
 <center>
 <div class="final">
 <center><h4 style="background:black;height:30px;text-align:center;width:99%;color:white;font-size:18px;font-style:bold;font-variant:small-caps;padding-top:2%;">Informações</h4></center>
